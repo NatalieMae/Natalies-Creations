@@ -1,6 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './LilyRedOrange.jpeg';
+import './Nav';
+import './styles.css';
 import './App.css';
+
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -11,12 +14,16 @@ function App() {
     .then((data) => setData(data.message));
   },
   []);
-  
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+          <div className='Home-Page'>
+              <h1>Photos by Natalie</h1>
+              <h2>Please contact me with requests!</h2>
+          </div>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -26,7 +33,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> }*/
+  }
       </header>
     </div>
   );
