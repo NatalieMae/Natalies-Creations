@@ -1,18 +1,14 @@
-// import './'
+import { proposalSyntaxPlugins } from "@babel/preset-env/lib/shipped-proposals";
+
 
 function Navbar() {
+    
     return (
-        <nav className='naviagtion-icon'>
-            {/* <button className="flowers">
-                <svg 
-                    // style="color: rgb(121, 23, 186)"
-                    xmlns="http://www.w3.org/2000/svg" 
-                    width="16" height="16" fill="currentColor" 
-                    class="bi bi-flower1" 
-                    viewBox="0 0 16 16">
-                    </svg>
-            </button> */}
-            <div className="navigation-menu">
+        <nav className='nav'>
+            <a href="/finalproject" className="site-title">
+                    Natalie's Photos
+                    </a>
+            <div>
                 <ul>
                     <li>
                         <a href="/home">Home</a>    
@@ -21,10 +17,10 @@ function Navbar() {
                         <a href="/about">About</a>  
                     </li>
                     <li>
-                        <a href="/Flowers">Flowers</a>  
+                        <a href="/flowers">Flowers</a>  
                     </li>
                     <li>
-                        <a href="/contact">Contact Me</a>
+                        <a href="/contact">Contact Info</a>
                     </li>
                 </ul>
 
@@ -36,6 +32,16 @@ function Navbar() {
             </div>
         </div>
         </nav>
+    )
+}
+function CustomLink({href, children,  ...props }) {
+    const path = window.location.pathname
+
+    return (
+        <li className={path === href ? "active" : "" }>
+            <a href={href} {...props}>
+                {children}
+        </li>
     )
 }
 
