@@ -1,31 +1,33 @@
-import {Link, useMatch, } from 'react-router-dom';
+import {Link, useMatch, useResolvedPath } from 'react-router-dom';
+import React from 'react';
 
 function Navbar() {
     
     return (
         <nav className='nav'>
-            <a href="/finalproject" className="site-title">
-                    Natalie's Photos
-            </a>
+            <Link to='/finalproject' className="site-title">
+                    Natalie's Photography
+            </Link>
             <ul>
             {/* <CustomLink href="/finalproject/src/pages/NataliesPics.js"></CustomLink> */}
-                <CustomLink href="/finalproject/src/pages/Home.js">Home</CustomLink>
-                <CustomLink href="/finalproject/src/pages/Flowers.js">Flowers</CustomLink>
-                <CustomLink href="/finalproject/src/pages/About.js">About</CustomLink>
-                <CustomLink href="/finalproject/src/pages/Contact.js">Contact Information</CustomLink>
+                <CustomLink to="/finalproject/src/pages/Home.js">Home</CustomLink>
+                <CustomLink to="/finalproject/src/pages/Flowers.js">Flowers</CustomLink>
+                <CustomLink to="/finalproject/src/pages/About.js">About</CustomLink>
+                <CustomLink to="/finalproject/src/pages/Contact.js">Contact Information</CustomLink>
             </ul>
         </nav>
     )
 }
 
-function CustomLink({href, children,  ...props }) {
-    const path = window.location.pathname
+function CustomLink({to, children,  ...props }) {
+    const resolvedPath = useResolvedPath(to)
+    const isActive = useMatch({ path: resolvedPath.pathname, end: true})
 
     return (
-        <li className={path === href ? "active" : "" }>
-            <a href={href} {...props}>
+        <li className={isActive ? "active" : "" }>
+            <Link to={to} {...props}>
                 {children}
-            </a>
+            </Link>
         </li>
     )
 }

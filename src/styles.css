@@ -15,7 +15,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: rgb(123,134,232);
     background: linear-gradient(164deg, rgb(39, 52, 168) 0%, rgb(79, 10, 86) 52%, rgb(238, 202, 21) 100%);
-    color: #270942;
+    color: #f1eef5;
     min-height: 100vh;
 
 }
@@ -27,9 +27,13 @@ body {
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem; 
-    padding: 25 1rem;
+    padding: 0 1rem;
     position: sticky;
 
+}
+
+.site-title {
+    font-size: 100%,
 }
 
 .nav a {
@@ -55,15 +59,9 @@ body {
     background-color: #555;
 }
 
-.nav li.hover {
-    background-color: #777;
+.nav li:hover {
+    background-color: rgb(42, 39, 247);
 }
 
-/* .container {
-    max-width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1rem;
-} */
 
 
