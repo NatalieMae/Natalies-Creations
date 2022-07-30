@@ -13,16 +13,22 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: rgb(123,134,232);
+    background: linear-gradient(164deg, rgb(39, 52, 168) 0%, rgb(79, 10, 86) 52%, rgb(238, 202, 21) 100%);
+    color: #270942;
+    min-height: 100vh;
+
 }
 
 .nav   {
-    background-color: #333;
+    background-color: rgb(11, 2, 2);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem; 
-    padding: 0 1rem;
+    padding: 25 1rem;
+    position: sticky;
 
 }
 
