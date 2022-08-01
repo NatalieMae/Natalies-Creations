@@ -5,16 +5,25 @@ function Navbar() {
     
     return (
         <nav className='nav'>
-            <Link to='/finalproject' className="site-title">
-                    Natalie's Photography
-            </Link>
-            <ul>
+           
             {/* <CustomLink href="/finalproject/src/pages/NataliesPics.js"></CustomLink> */}
+            <ul>
                 <CustomLink to="/finalproject/src/pages/Home.js">Home</CustomLink>
+                <ul>
                 <CustomLink to="/finalproject/src/pages/Flowers.js">Flowers</CustomLink>
+            </ul>
+                <br></br>
+                <Link to='/finalproject' className="site-title">
+                    Natalie's Photography
+                </Link>
+                <br></br>
+                
                 <CustomLink to="/finalproject/src/pages/About.js">About</CustomLink>
                 <CustomLink to="/finalproject/src/pages/Contact.js">Contact Information</CustomLink>
             </ul>
+               
+            
+
         </nav>
     )
 }
