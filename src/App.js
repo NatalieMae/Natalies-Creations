@@ -7,6 +7,7 @@ import About from './pages/About';
 import UserContactForm from './pages/ContactPages/UserContactForm';
 import PhotoUpLoader from './pages/Flowers/PhotoUpLoader';
 import SignInSide from './SignInSide';
+import logos from './Photos/logos';
 // import logo from './LilyRedOrange.jpeg';
 // import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import './styles.css';
@@ -27,7 +28,7 @@ function App() {
       <br/>
       <div className='Nav-container'>
         <Routes>
-          {/* <Route path='/finalproject/src/pages/Flowers/FlowerAlbum.js' element={<FlowerAlbum />} /> */}
+          <Route path='/finalproject/src/pages/Flowers/FlowerAlbum.js' element={<FlowerAlbum />} />
           <Route path='/finalproject/src/pages/Home.js' element={<Home />} />
           <Route path='/finalproject/src/pages/Flowers.js' element={<Flowers />} />
           <Route path='/finalproject/src/pages/About.js' element={<About />} />
@@ -39,6 +40,7 @@ function App() {
           <Route path='/finalproject/src/pages/PhotoUpLoader.js' element={<PhotoUpLoader />} />
         </Routes>
         <Routes>
+          <Route path='/finalproject/src/pages/ContactPages/UserContactForm.js' element={<UserContactForm />} />
           <Route path='/finalproject/src/SignInSide.js' element={<SignInSide />} />
         </Routes>
       </div>

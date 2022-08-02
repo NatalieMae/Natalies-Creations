@@ -8,6 +8,7 @@ function Flowers() {
             <h1>
                 Flowers Galor!
             </h1>
+            {/* <FlowerAlbum /> */}
             <br></br>
             <PhotoUploader />
         </div>

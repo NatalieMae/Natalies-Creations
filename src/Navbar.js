@@ -19,7 +19,9 @@ function Navbar() {
                 <br></br>
             <ul>
                 <CustomLink to="/finalproject/src/pages/About.js">About</CustomLink>
-                <CustomLink to="/finalproject/src/pages/Contact.js">Contact Me</CustomLink>
+            </ul>
+            <ul>
+                <CustomLink to="/finalproject/src/pages/ContactPages/UserContactForm.js">Contact Me</CustomLink>
             </ul>
 
             <ul>

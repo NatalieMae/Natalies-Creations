@@ -25,26 +25,30 @@ const UserContactForm = () => {
 
     
     return (
+        <div className="user-form">
         <form onSubmit={handleSubmit}>
             <div>
-                <h1>Please Email me with your information
+                <h1>Please Email me with any questions!
                     <br></br>
-                and any other details you wish to share.</h1>
+                </h1>
             </div>
             <div>
-                <label htmlFor="name">Name:</label>
+                <label htmlFor="name">Name:   </label>
                 <input type="text" id="name" required />
             </div>
+            <br></br>
             <div>
-                <label htmlFor="email">Email:</label>
+                <label htmlFor="email">Email:   </label>
                 <input type="email" id="email" required />
             </div>
+            <br></br>
             <div>
-                <label htmlFor="message">Message:</label>
+                <label htmlFor="message">Message:   </label>
                 <textarea id="message" required />
             </div>
                 <button type="submit">{status}</button>
         </form>
+        </div>
         );
     };
 

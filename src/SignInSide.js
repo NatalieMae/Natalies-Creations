@@ -18,7 +18,7 @@ function Copyright(props) {
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        Natalie's Creations 
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -48,8 +48,9 @@ function SignInSide() {
           sm={4}
           md={7}
           sx={{
-            backgroundImage: 'url(https://source.unsplash.com/random)',
-            backgroundRepeat: 'no-repeat',
+            // backgroundImage: 'url(https://source.unsplash.com/random)',
+            // backgroundImage: 'url(/finalproject/src/Hostaflowers-1.jpg)',
+            // backgroundRepeat: 'no-repeat',
             backgroundColor: (t) =>
               t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
             backgroundSize: 'cover',
