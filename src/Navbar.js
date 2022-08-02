@@ -5,11 +5,11 @@ function Navbar() {
     
     return (
         <nav className='nav'>
-           
             {/* <CustomLink href="/finalproject/src/pages/NataliesPics.js"></CustomLink> */}
             <ul>
                 <CustomLink to="/finalproject/src/pages/Home.js">Home</CustomLink>
-                <ul>
+            </ul>
+            <ul>
                 <CustomLink to="/finalproject/src/pages/Flowers.js">Flowers</CustomLink>
             </ul>
                 <br></br>
@@ -17,15 +17,13 @@ function Navbar() {
                     Natalie's Photography
                 </Link>
                 <br></br>
-                
+            <ul>
                 <CustomLink to="/finalproject/src/pages/About.js">About</CustomLink>
-                <CustomLink to="/finalproject/src/pages/Contact.js">Contact Information</CustomLink>
+                <CustomLink to="/finalproject/src/pages/Contact.js">Contact Me</CustomLink>
             </ul>
-    
-            <CustomLink to='/finalproject/src/pages/Flowers/FlowerAlbum.js'>Albums</CustomLink>
 
             <ul>
-            <CustomLink to='/finalproject/src/pages/Flowers/FlowerAlbum.js'>Albums</CustomLink>
+            <CustomLink to='/finalproject/src/SignInSide.js'>Sign On</CustomLink>
             </ul>
             
         </nav>

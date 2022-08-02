@@ -27,6 +27,11 @@ const UserContactForm = () => {
     return (
         <form onSubmit={handleSubmit}>
             <div>
+                <h1>Please Email me with your information
+                    <br></br>
+                and any other details you wish to share.</h1>
+            </div>
+            <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text" id="name" required />
             </div>
