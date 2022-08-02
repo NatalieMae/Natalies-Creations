@@ -21,9 +21,13 @@ function Navbar() {
                 <CustomLink to="/finalproject/src/pages/About.js">About</CustomLink>
                 <CustomLink to="/finalproject/src/pages/Contact.js">Contact Information</CustomLink>
             </ul>
-               
-            
+    
+            <CustomLink to='/finalproject/src/pages/Flowers/FlowerAlbum.js'>Albums</CustomLink>
 
+            <ul>
+            <CustomLink to='/finalproject/src/pages/Flowers/FlowerAlbum.js'>Albums</CustomLink>
+            </ul>
+            
         </nav>
     )
 }
