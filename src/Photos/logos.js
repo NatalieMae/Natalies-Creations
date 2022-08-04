@@ -1,9 +1,9 @@
-import React from 'react';
+// import React from 'react';
 
-function Header() {
-    const logo = url('./LilyRedOrange.jpg')
-    
-    return <img src={logo} alt="Logo" />;
-}
+// function Header() {
+//     const logo = url('./LilyRedOrange.jpg')
 
-export default Header;
+//     return <img src={logo} alt="Logo" />;
+// }
+
+// export default Header;

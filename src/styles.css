@@ -73,3 +73,14 @@ body {
     
 }
 
+.personal-info ul {
+    font-family: cursive;
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* display: flex; */
+    gap: 1rem;
+}
+
+

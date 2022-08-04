@@ -7,7 +7,7 @@ import About from './pages/About';
 import UserContactForm from './pages/ContactPages/UserContactForm';
 import PhotoUpLoader from './pages/Flowers/PhotoUpLoader';
 import SignInSide from './SignInSide';
-import logos from './Photos/logos';
+// import logos from './Photos/logos';
 // import logo from './LilyRedOrange.jpeg';
 // import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import './styles.css';
@@ -48,5 +48,6 @@ function App() {
     </>
   )
 }
+
 
 export default App;

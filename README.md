@@ -53,3 +53,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 Axios React MongooseDB YouTubers:Web Dev Simplified, JavaScript Mastery  
+
+Help is needed on the about page for adding a bio pic of self. 
+
+Help is needed with the sign on to make my pictures rotate inside the left side of the screen.
+
+Error Message needed if Contact Me section is unable to submit the email that the user is trying to send to the site creator. 
+
