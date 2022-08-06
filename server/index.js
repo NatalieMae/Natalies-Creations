@@ -5,6 +5,7 @@ import cors from 'cors';
 // import nodemailer from 'nodemailer';
 import multer from 'multer';
 // import bcrypt from 'bycrypt';
+import Files from './models/File.js';
 
 
 import postRoutes from './Routes/posts.js';
