@@ -83,4 +83,18 @@ body {
     gap: 1rem;
 }
 
+.home-pic  {
+    background-image: url(./Photos/LilyRedOrange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 1000px;
+}
 
+.home-pic-two   {
+    background-image: url(./Photos/Hostaflowers-2.jpg);
+    background-repeat: no-repeat;
+    background-size:contain; 
+    background-position: center;
+    height: 500px;
+}

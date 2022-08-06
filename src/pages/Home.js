@@ -2,8 +2,13 @@ import React from "react";
 
 function Home() {
     return (
-        <h1>Home</h1>
-        
+        <div className="home-pic">
+
+        <h1>
+            
+        </h1>
+            <h2></h2>
+        </div>
     )
 }
 

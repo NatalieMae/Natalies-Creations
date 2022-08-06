@@ -23,8 +23,8 @@ function About() {
                     </li>
                 </ul>
         </div>
-        
-
+        <div className="home-pic-two">
+            </div>
         </>
     )
 }
