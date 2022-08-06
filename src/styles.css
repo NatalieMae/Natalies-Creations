@@ -86,7 +86,7 @@ body {
 .home-pic  {
     background-image: url(./Photos/LilyRedOrange.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: 60rem ; 
     background-position: center;
     height: 1000px;
 }
