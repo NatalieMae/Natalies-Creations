@@ -4,7 +4,26 @@ import React from "react";
 
 function Flowers() {
     
-    return <img src={window.location.origin + './Photos/BoyandhisDog.jpg'} alt="Flower pictures Galor!" />;
+    return (
+        <>
+        <div className="flower-one">
+            </div>
+        <div className="flower-two">
+            </div>
+        <div className="flower-three">
+            </div>
+        <div className="flower-four">
+            </div>
+        <div className="flower-five">
+            </div>
+        <div className="flower-six">
+            </div>
+        <div className="flower-seven">
+            </div>
+        <div className="flower-eight">
+            </div>
+        </>
+    )
     
 }
 

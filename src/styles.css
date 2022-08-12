@@ -86,7 +86,7 @@ body {
 }
 
 .home-pic  {
-    background-image: url(./pages/Flowers/Photos/daylilymagentayellow.jpg);
+    background-image: url(./pages/Flowers/Photos/LilyRedOrange.jpg);
     background-repeat: no-repeat;
     background-size: 60rem ; 
     background-position: center;
@@ -101,13 +101,81 @@ body {
     height: 500px;
 }
 
-/* .flower-nav { */
-    /* background-image:   url(./Photos/BoyandhisDog.jpg),
-                        url(./Photos/Calendula\ 2.jpg),
-                        url(./Photos/Calendula\ Flower.jpg);
+.flower-one {
+    display:grid ;
+    background-image: url(./pages/Flowers/Photos/Hostaflowers.jpg) ;
     background-repeat: no-repeat, no-repeat;
-    background-size: 400px 200px, 500px 400px;
-    padding: 25px;
-    height: 400px; */
-/* 
-} */
+    background-size:25%, 25%, 25%, 25%;
+    /* padding: 25px 25px; */
+    height: 400px; 
+}
+
+.flower-two {
+    display:grid ;
+    
+    background-image: url(./pages/Flowers/Photos/DatLilyYellowRed.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size:25%, 25%, 25%, 25%;
+    /* padding: 25px 25px; */
+    height: 400px; 
+}
+
+.flower-three {
+    display:grid ;
+    
+    background-image: url(./pages/Flowers/Photos/BoyandhisDog.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size:25%, 25%, 25%, 25%;
+    /* padding: 25px 25px; */
+    height: 400px; 
+}
+
+.flower-four {
+    display:grid ;
+    
+    background-image: url(./pages/Flowers/Photos/Calendula\ 2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size:25%, 25%, 25%, 25%;
+    /* padding: 25px 25px; */
+    height: 400px; 
+}
+
+.flower-five {
+    display:grid ;
+    
+    background-image: url(./pages/Flowers/Photos/ConeFlowerOrange.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size:25%, 25%, 25%, 25%;
+    /* padding: 25px 25px; */
+    height: 400px; 
+}
+
+.flower-six {
+    display:grid ;
+    
+    background-image: url(./pages/Flowers/Photos/daylilymagentayellow.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size:25%, 25%, 25%, 25%;
+    /* padding: 25px 25px; */
+    height: 400px; 
+}
+
+/* .flower-seven {
+    display:grid ;
+    
+    background-image: url(./pages/Flowers/Photos/DatLilyYellowRed.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size:25%, 25%, 25%, 25%;
+    /* padding: 25px 25px; */
+    /* height: 400px; 
+} */ 
+
+.flower-eight {
+    display:grid ;
+    position: relative;
+    background-image: url(./pages/Flowers/Photos/morningdove.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25%;
+    /* padding: 25px 25px; */
+    height: 400px; 
+}
