@@ -65,27 +65,36 @@ body {
 }
 
 .user-form {
-    font-style: italic;
-    font-weight: 800;
     font-family: cursive;
-    font-size: large; 
+    font-size:  2rem;
+    text-shadow:    7px 7px 7px rgb(232, 140, 140),
+                    8px 8px 7px rgb(223, 172, 172);
     padding: black solid 5%; 
     /* line-height: 26px; */
-    color:indianred;
+    color: white;
     
+}
+.personal-info {
+    font-family: cursive;
+    font-size:  2rem;
+    text-shadow:    7px 7px 7px rgb(232, 140, 140),
+                    8px 8px 7px rgb(223, 172, 172);
 }
 
 .personal-info ul {
     font-family: cursive;
-    font-size: xx-large;
-    padding: 0;
-    margin: 0;
+    font-size:  2rem;
+    text-shadow:    7px 7px 7px rgb(232, 140, 140),
+                    8px 8px 7px rgb(223, 172, 172);
     list-style: none;
-    /* display: flex; */
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .home-pic  {
+    font-family: cursive;
+    font-size:  2rem;
+    text-shadow:    7px 7px 7px rgb(232, 140, 140),
+                    8px 8px 7px rgb(223, 172, 172);
     background-image: url(./pages/Flowers/Photos/LilyRedOrange.jpg);
     background-repeat: no-repeat;
     background-size: 60rem ; 
@@ -101,16 +110,17 @@ body {
     height: 500px;
 }
 
-/* .flowers {
-    display: table-column;
-} */
+.flowers:hover  {
+    background-size: 100%;
+}
+
 .flower-one {
     /* display: table-column ; */
     background-image: url(./pages/Flowers/Photos/Hostaflowers.jpg) ;
     background-repeat: no-repeat, no-repeat;
     background-position: center;
     background-size:25%, 25%, 25%, 25%;
-    height: 400px; 
+    height: 300px; 
 }
 
 .flower-two {
@@ -129,7 +139,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-size:25%, 25%, 25%, 25%;
 
-    height: 400px; 
+    height: 300px; 
 }
 
 .flower-four {
@@ -149,7 +159,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-size:25%, 25%, 25%, 25%;
 
-    height: 400px; 
+    height: 300px; 
 }
 
 .flower-six {
@@ -168,7 +178,7 @@ body {
     background-image: url(./pages/Flowers/Photos/yellowblackeye.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size:25%, 25%, 25%, 25%;
-    height: 400px; 
+    height: 300px; 
 } 
 
 .flower-eight {
@@ -177,6 +187,6 @@ body {
     background-image: url(./pages/Flowers/Photos/morningdove.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size: 25%;
-
+    
     height: 400px; 
 }
