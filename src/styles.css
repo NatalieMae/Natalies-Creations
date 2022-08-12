@@ -22,7 +22,7 @@ body {
 
 .nav   {
     background-color: rgb(11, 2, 2);
-    background-image: url('./Photos/Calendula\ 2.jpg');
+    background-image: url('./pages/Flowers/Photos/Calendula\ 2.jpg');
     background-position: 2px;
     color: white;
     display: flex;
@@ -86,7 +86,7 @@ body {
 }
 
 .home-pic  {
-    background-image: url(./Photos/LilyRedOrange.jpg);
+    background-image: url(./pages/Flowers/Photos/daylilymagentayellow.jpg);
     background-repeat: no-repeat;
     background-size: 60rem ; 
     background-position: center;
@@ -94,9 +94,20 @@ body {
 }
 
 .home-pic-two   {
-    background-image: url(./Photos/Hostaflowers-2.jpg);
+    background-image: url(./pages/Flowers/Photos/Hostaflowers-2.jpg);
     background-repeat: no-repeat;
     background-size:contain; 
     background-position: center;
     height: 500px;
 }
+
+/* .flower-nav { */
+    /* background-image:   url(./Photos/BoyandhisDog.jpg),
+                        url(./Photos/Calendula\ 2.jpg),
+                        url(./Photos/Calendula\ Flower.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 400px 200px, 500px 400px;
+    padding: 25px;
+    height: 400px; */
+/* 
+} */

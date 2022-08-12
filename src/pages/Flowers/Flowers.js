@@ -1,19 +1,10 @@
 import React from "react";
-import PhotoUploader from "./PhotoUpLoader";
+// import PhotoUploader from "./PhotoUpLoader";
+
 
 function Flowers() {
     
-    return (
-        <div className="flower-nav">
-            <h1>
-                Flowers Galor!
-            </h1>
-            {/* <FlowerAlbum /> */}
-            <br></br>
-            <PhotoUploader />
-        </div>
-    )
-
+    return <img src={window.location.origin + './Photos/BoyandhisDog.jpg'} alt="Flower pictures Galor!" />;
     
 }
 
