@@ -6,6 +6,7 @@ function Flowers() {
     
     return (
         <>
+        <div className="flowers">
         <div className="flower-one">
             </div>
         <div className="flower-two">
@@ -22,6 +23,7 @@ function Flowers() {
             </div>
         <div className="flower-eight">
             </div>
+        </div>
         </>
     )
     

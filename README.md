@@ -1,62 +1,28 @@
-# Getting Started with Create React App
+# Natalie's Creations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###
+1. PHOTOS BY NATALIE FOCUSING ON FLOWERS FOR NOW
+2. ADDING ADDITIONAL PAGES TO HIGHLIGHT BY DIY SKILLS.
+3. ADDING A COMMENTS SECTION TO HAVE OTHER PHOTOGRAPHERS CRITIC/HELP WITH MY PHOTOGRAPHY SKILLS. (OR LACK THERE OF LOL!)
 
-## Available Scripts
+#### THE FOLLOWING LIBRARIES AND PROGRAMS WHERE USED IN THE CREATION OF THE SITE: 
+    >   1. AXIOS
+    >   2. REACT
+    >   3. MONGOOSEDB
+    >   4. YOUTUBERS: WEB DEV SIMPLIFIED, JAVASCRIPT MASTERY, FREECODECAMP, W3SCHOOLS
+    >   5. HEROKU
+    >   6. AND SO MANY MORE THAT I CAN'T THINK OF RIGHT NOW!
 
-In the project directory, you can run:
+##### MY MOST USED SEARCH ENGINE DURING THIS ADVENTURE WAS HTTPS://GOOGLE.COM.
 
-### `npm test`
+### Family support through all of this!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Boy and his dog](./src/pages/Flowers/Photos/Boyandhisdog.jpg)
+#### Please email me if there is anything that I should focus on or change to help me to learn and get better at my coding skills. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>CONTACT ME 
+<nataliemae263@gmail.com>   
 
 
-Axios React MongooseDB YouTubers:Web Dev Simplified, JavaScript Mastery  
-
-Help is needed on the about page for adding a bio pic of self. 
-
-Help is needed with the sign on to make my pictures rotate inside the left side of the screen.
-
-Error Message needed if Contact Me section is unable to submit the email that the user is trying to send to the site creator. 
+ 
 

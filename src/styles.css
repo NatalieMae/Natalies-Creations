@@ -101,81 +101,82 @@ body {
     height: 500px;
 }
 
+/* .flowers {
+    display: table-column;
+} */
 .flower-one {
-    display:grid ;
+    /* display: table-column ; */
     background-image: url(./pages/Flowers/Photos/Hostaflowers.jpg) ;
     background-repeat: no-repeat, no-repeat;
+    background-position: center;
     background-size:25%, 25%, 25%, 25%;
-    /* padding: 25px 25px; */
     height: 400px; 
 }
 
 .flower-two {
-    display:grid ;
-    
+    /* display: table-column ; */
     background-image: url(./pages/Flowers/Photos/DatLilyYellowRed.jpg);
     background-repeat: no-repeat, no-repeat;
+    background-position: center;
     background-size:25%, 25%, 25%, 25%;
-    /* padding: 25px 25px; */
     height: 400px; 
 }
 
 .flower-three {
-    display:grid ;
-    
-    background-image: url(./pages/Flowers/Photos/BoyandhisDog.jpg);
+    /* display: table-column ; */
+    background-position: center;
+    background-image: url(./pages/Flowers/Photos/PurplePopFlower2.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size:25%, 25%, 25%, 25%;
-    /* padding: 25px 25px; */
+
     height: 400px; 
 }
 
 .flower-four {
-    display:grid ;
-    
+    /* display: table-column ; */
+    background-position: center;
     background-image: url(./pages/Flowers/Photos/Calendula\ 2.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size:25%, 25%, 25%, 25%;
-    /* padding: 25px 25px; */
+
     height: 400px; 
 }
 
 .flower-five {
-    display:grid ;
-    
+    /* display: table-column ; */
+    background-position: center;
     background-image: url(./pages/Flowers/Photos/ConeFlowerOrange.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size:25%, 25%, 25%, 25%;
-    /* padding: 25px 25px; */
+
     height: 400px; 
 }
 
 .flower-six {
-    display:grid ;
-    
+    /* display: table-column ; */
+    background-position: center;
     background-image: url(./pages/Flowers/Photos/daylilymagentayellow.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size:25%, 25%, 25%, 25%;
-    /* padding: 25px 25px; */
+
     height: 400px; 
 }
 
-/* .flower-seven {
-    display:grid ;
-    
-    background-image: url(./pages/Flowers/Photos/DatLilyYellowRed.jpg);
+.flower-seven {
+    /* display: table-column ; */
+    background-position: center;
+    background-image: url(./pages/Flowers/Photos/yellowblackeye.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size:25%, 25%, 25%, 25%;
-    /* padding: 25px 25px; */
-    /* height: 400px; 
-} */ 
+    height: 400px; 
+} 
 
 .flower-eight {
-    display:grid ;
-    position: relative;
+    /* display: table-column ; */
+    background-position: center;
     background-image: url(./pages/Flowers/Photos/morningdove.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size: 25%;
-    /* padding: 25px 25px; */
+
     height: 400px; 
 }
