@@ -4,8 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 // import nodemailer from 'nodemailer';
 import multer from 'multer';
-// import bcrypt from 'bycrypt';
-import Files from './models/File.js';
+import bcrypt from 'bcrypt';
 
 
 import postRoutes from './Routes/posts.js';
@@ -36,14 +35,16 @@ app.post("/upload", upload.single("file"), async (req, res) => {
         {
                 fileData.password = await bcrypt.hash(req.body.password, 10)
         }
-        const file = await file.create(fileData)
+        const file = await File.create(fileData)
+        res.render("index", {fileLink: `${req.headers.origin}/file/${file.id}` })
 })
 
+app.get("/finalproject/server/models/file.js", (req, res) => {})
 
 
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
-        .then(() => app.listen(PORT, () => console.log(`Server running on port: http://localhost:${PORT}`)))
+        .then(() => app.listen(PORT, () => console.log(`Server running on port: mongodb://localhost:${PORT}`)))
         .catch((error) => console.log(`${error} did not connect`));
 
 

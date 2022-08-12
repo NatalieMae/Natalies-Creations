@@ -4,7 +4,12 @@ import React from 'react';
 function Navbar() {
     
     return (
+        
         <nav className='nav'>
+                <br></br>
+                {/* <Link to='/finalproject' className="site-title"> */}
+                    Natalie's Photography
+                {/* </Link> */}
             {/* <CustomLink href="/finalproject/src/pages/NataliesPics.js"></CustomLink> */}
             <ul>
                 <CustomLink to="/finalproject/src/pages/Home.js">Home</CustomLink>
@@ -12,10 +17,6 @@ function Navbar() {
             <ul>
                 <CustomLink to="/finalproject/src/pages/Flowers.js">Flowers</CustomLink>
             </ul>
-                <br></br>
-                <Link to='/finalproject' className="site-title">
-                    Natalie's Photography
-                </Link>
                 <br></br>
             <ul>
                 <CustomLink to="/finalproject/src/pages/About.js">About</CustomLink>
