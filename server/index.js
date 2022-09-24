@@ -12,11 +12,11 @@ import postRoutes from './Routes/posts.js';
 const app = express();
 
 const upload = multer({ dest: "uploads" })
-const CONNECTION_URI = "mongodb+srv://nataliemae:dominick1@cluster0.bnyagzx.mongodb.net/PhotosDB"; 
-const PORT = process.env.PORT || 5001
+// const MONGODB_URI = "mongodb+srv://nataliemae:dominick1@cluster0.bnyagzx.mongodb.net/PhotosDB"; 
+// const PORT = process.env.PORT || 5001
 
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
-app.use(bodyParser.uriencoded({ limit: "30mb", extended: true }));
+app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 app.use('/posts', postRoutes);
 
@@ -39,15 +39,21 @@ app.post("/upload", upload.single("file"), async (req, res) => {
         res.render("index", {fileLink: `${req.headers.origin}/file/${file.id}` })
 })
 
-app.get("/finalproject/server/models/file.js", (req, res) => {})
+// app.get("/finalproject/server/models/file.js", (req, res) => {})
 
 
 
-mongoose.connect(CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-        .then(() => app.listen(PORT, () => console.log(`Server running on port: mongodb://localhost:${PORT}`)))
-        .catch((error) => console.log(`${error} did not connect`));
+// mongoose.connect(CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+//         .then(() => app.listen(PORT, () => console.log(`Server running on port: mongodb://localhost:${PORT}`)))
+//         .catch((error) => console.log(`${error} did not connect`));
 
 
-
+mongoose.connect(
+        process.env.MONGODB_URI || 'mongodb://localhost:27017/mongodb+srv://nataliemae:dominick1@cluster0.bnyagzx.mongodb.net/PhotosDB',
+        {
+                useNewUrlParser: true,
+                useUnifiedTopology: true,
+        },
+);
 
 

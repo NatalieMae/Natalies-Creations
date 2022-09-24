@@ -12,11 +12,11 @@ function Flowers() {
                 <CustomLink to="/finalproject/src/pages/Home.js">Home</CustomLink>
             </ul> */}
         <div className="flower-one">
-            <h1>
+            {/* <h1>
                 <CustomLink to="/finalproject/src/pages/Flowers/Photos/Hostaflowers.jpg">
                     Purple Pop Flowers
                 </CustomLink>
-            </h1>
+            </h1> */}
             </div>
         <div className="flower-two">
             </div>

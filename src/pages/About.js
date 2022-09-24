@@ -7,15 +7,24 @@ function About() {
             <h1>Natalie's Creations!</h1>
                 <ul className='flower-albums'>
                     <li>
-                        Why I started all this nonscense:
-                        <br></br>
-                        I started taking pictures with a point and shoot camera. It was for fun and to contribute to my companies photo contest each month. I happen to win the month that we did a flower theme. Ever since I have not been able to stop. Also, my mom loves when I make a calendar each year of her flowers from her gardens in the spring, summer, and fall.
-                    </li>
-                    <br></br>   
+                            <ul>
+                                <il>Nature Flower Photorgraphy</il>
+                                <br></br>
+                                <il>Themed Party Decorations</il>
+                                <br></br>
+                                <il>Web Design(in progress)</il>
+                                <br></br>
+                                <il>Womens Rights!</il>
+                                <br></br>
+                            </ul>
+                    <br></br> 
+                    </li>  
                     <li>
-                        My Cause (the reason behind all the maddness!)
-                    <br></br>   
-                        I find peace in watching the gardens in the morning. All day for that matter. The birds, squirrels, bees, and butterflies are amazing to watch. I feel that everyone should be able to share in this experience. Sharing is caring!
+                        The Reason behind all this!
+                    <br></br>  
+                        I want to share with the public what I normally only share with my immediate family and friends. My mom has always said "you should sell this or you should put this or that out there... ", well a millions years later I am following her advice. From a rediculous amouont of years in college; which I ended up becoming undecided in. To spending 17yrs plus at my current company. I have advanced as much as possible and my talents lie elsewhere. My goals have now taken me to a place where I need that job and so much more. 
+                        If I can create and make things that others sell for 100's and make if affordable to the normal person; then that's what I want to do. 
+                        I can't wait to start this new adventure and see what happens. 
                     </li>
                     <br></br>
                     <li>

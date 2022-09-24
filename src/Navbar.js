@@ -6,7 +6,7 @@ function Navbar() {
     return (
         
         <nav className='nav'>
-                <br></br>
+                {/* <br></br> */}
                 {/* <Link to='/finalproject' className="site-title"> */}
                     Natalie's Photography
                 {/* </Link> */}
